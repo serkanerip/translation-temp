@@ -1,0 +1,11 @@
+.idea
+vendor
+.vscode
+.env
+.phpunit.result.cache
+node_modules
+public/hot
+public/storage
+storage/*.key
+npm-debug.log
+yarn-debug.log
