@@ -1,0 +1,43 @@
+{
+    "name": "epigra/translation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Uğur Aydoğdu",
+            "email": "ugur.aydogdu@epigra.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Epigra\\Translation\\TranslationServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Epigra\\Translation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Epigra\\Translation\\Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://morpheus.epigra.codes"
+        }
+    ],
+    "require": {
+        "spatie/laravel-translation-loader": "^2.7",
+        "bernhardh/nova-translation-editor": "^1.2",
+        "epigra/core": "dev-master",
+        "laravel/nova": "^3.18"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.7"
+    }
+}
